@@ -1,3 +1,4 @@
-# 🔗-listmoji
+# cmoji-injecter
 
-Implementing a linked list with emojis only. In C.
+Inject 💉 emoji 😀 into C programs. 0️⃣ 1️⃣
+
