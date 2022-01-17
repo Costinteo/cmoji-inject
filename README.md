@@ -4,7 +4,7 @@ Inject 💉 emoji 😀 into C programs. 0️⃣ 1️⃣
 
 ## How it works 🔩🔧
 
-It's actually really simple 🤓. There is a bash 🐚 script included in the "💉" directory, that has to be called on a header full of emoji defines (such as "😀.h" in the root directory of this project) and any .c or .h files. It parses the emoji header and replaces any word that is defined to the emoji counterpart in the .c and .h files passed to it. This 💯 completely ✨emojifies✨ the files. It keeps the compilable as best (not really) as it can. It also includes the emoji define header in the files. Here's how to call it:
+It's actually really simple 🤓. There is a bash 🐚 script included in the "💉" directory, that has to be called on a header full of emoji defines (such as "😀.h" in the root directory of this project) and any .c or .h files. It parses the emoji header and replaces any word that is defined to the emoji counterpart, in the .c and .h files passed to it. This 💯 completely ✨emojifies✨ the files. It keeps the files compilable, as best (not really) as it can. It also includes the emoji define header in the files. Here's how to call it:
 
 ```
 $ ./💉.sh 😀.h main.c list.h list.c
